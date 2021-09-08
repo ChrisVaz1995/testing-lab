@@ -27,3 +27,18 @@ test("return sum of subtraction", () => {
     expect(subtract(10,5)).toEqual(5);
     expect(subtract(12,6)).toEqual(6);
 });
+
+describe("Math Functions", () => {
+    it("should return num1 + num2", () => {
+        expect(add(1,2)).toEqual(3);
+    });
+    it("should return subtract", () => {
+        expect(subtract(10,5)).toEqual(5);
+    });
+    it("should return multiply", () => {
+        expect(multiply(5,2)).toEqual(10);
+    });
+    it("should return division", () => {
+        expect(divide(6,2)).toEqual(3);
+    });
+});
